@@ -1,0 +1,74 @@
+.logo {
+  color: #ff3b3f;
+}
+
+.bg-image-0 {
+  background-image: url("https://c1.wallpaperflare.com/preview/835/250/537/office-desk-computer-light.jpg");
+}
+
+.bg-image-1 {
+  background-image: url("https://wallpaperbat.com/img/18344-programmers-and-coders-wallpaper-hd-by-pcbots-part-ii.png");
+}
+
+.bg-image-2 {
+  background-image: url("https://wallpaperbat.com/img/370271-programming-hd-wallpaper-and-background-image.png");
+}
+
+.parallax {
+  height: 70vh;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-family: 'roboto', Tahoma, sans-serif;
+}
+
+header .navbar {
+  z-index: 1;
+  position: absolute;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+header .bg-image {
+  height: 100vh;
+  background-size: cover;
+}
+
+#about .row .col {
+  overflow: hidden;
+  max-height: 50vh;
+}
+
+#services .card {
+  max-width: 300px;
+  min-height: 170px;
+}
+
+#form .row .col {
+  max-width: 450px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a:hover {
+  -webkit-transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
+}
+
+footer .copy {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+img {
+  loading: lazy;
+}
+/*# sourceMappingURL=styles.css.map */
