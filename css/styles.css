@@ -1,5 +1,54 @@
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-track:hover {
+  background: rgba(238, 238, 238, 0.8);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  background-color: rgba(170, 170, 170, 0.9);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+body {
+  font-family: "roboto", Tahoma, sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+
+header .navbar {
+  z-index: 1;
+  position: absolute;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+header .bg-image {
+  height: 100vh;
+  background-size: cover;
+}
+
 .logo {
   color: #ff3b3f;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .bg-image-0 {
@@ -19,30 +68,6 @@
   position: relative;
   background-size: cover;
   background-attachment: fixed;
-}
-
-.mask {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-body {
-  font-family: 'roboto', Tahoma, sans-serif;
-}
-
-p {
-  text-align: justify;
-}
-
-header .navbar {
-  z-index: 1;
-  position: absolute;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-header .bg-image {
-  height: 100vh;
-  background-size: cover;
 }
 
 #about .row .col {
@@ -92,30 +117,5 @@ footer a:hover {
 
 footer .copy {
   background-color: rgba(0, 0, 0, 0.2);
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 10.5px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-::-webkit-scrollbar-track:hover {
-  background: rgba(238, 238, 238, 0.8);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background-color: rgba(170, 170, 170, 0.9);
-  border-radius: 25px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #999;
 }
 /*# sourceMappingURL=styles.css.map */
