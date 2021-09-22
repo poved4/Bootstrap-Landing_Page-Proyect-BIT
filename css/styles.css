@@ -81,25 +81,16 @@ header .bg-image {
   height: 100%;
 }
 
-#services .card {
-  max-width: 300px;
-  min-height: 170px;
-}
-
-#services .row:nth-child(2n) .card {
-  color: #161616;
-  background-color: #f4f4f4;
-}
-
-#services .row:nth-child(2n+1) .card {
+#services .container:nth-child(1) .col:nth-child(even) .card {
   color: #f4f4f4;
   background-color: #161616;
 }
 
-#carouselExampleTouch {
-  padding: 0;
-  width: 70vw;
-  margin: auto;
+#services .card {
+  max-width: 300px;
+  min-height: 170px;
+  color: #161616;
+  background-color: #f4f4f4;
 }
 
 #form .col {

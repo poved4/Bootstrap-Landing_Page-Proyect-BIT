@@ -13,27 +13,18 @@
     }
 }
     
-#services {    
-    .card{ 
-        max-width: 300px;
-        min-height: 170px;
-    }
-    
-    .row:nth-child(2n) .card {
-        color: $color-dark;
-        background-color:  $color-white;
-    }
-
-    .row:nth-child(2n+1) .card {
+#services {   
+    .container:nth-child(1) .col:nth-child(even) .card {
         color: $color-white;
         background-color: $color-dark;
-    } 
-}
-
-#carouselExampleTouch {
-    padding: 0;
-    width: 70vw;
-    margin: auto;
+    }
+    
+    .card { 
+        max-width: 300px;
+        min-height: 170px;
+        color: $color-dark;
+        background-color:  $color-white;        
+    }
 }
 
 #form {
