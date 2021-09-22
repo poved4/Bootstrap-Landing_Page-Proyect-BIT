@@ -81,16 +81,24 @@ header .bg-image {
   height: 100%;
 }
 
-#services .container:nth-child(1) .col:nth-child(even) .card {
-  color: #f4f4f4;
-  background-color: #161616;
-}
-
 #services .card {
   max-width: 300px;
   min-height: 170px;
-  color: #161616;
+  color: #373737;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   background-color: #f4f4f4;
+}
+
+#services .col:hover .card {
+  color: #f4f4f4;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+          box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  background-color: #373737;
+  -webkit-transform: scale(1.1, 1.1) rotateX(360deg);
+          transform: scale(1.1, 1.1) rotateX(360deg);
 }
 
 #form .col {

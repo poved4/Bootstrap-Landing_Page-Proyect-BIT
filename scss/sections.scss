@@ -14,16 +14,20 @@
 }
     
 #services {   
-    .container:nth-child(1) .col:nth-child(even) .card {
-        color: $color-white;
-        background-color: $color-dark;
-    }
-    
     .card { 
         max-width: 300px;
         min-height: 170px;
-        color: $color-dark;
-        background-color:  $color-white;        
+        color: $color-charcol;
+        box-shadow: $shadow-22;
+        background-color:  $color-neutral;        
+    }
+
+    .col:hover .card {
+        color: $color-neutral;
+        box-shadow: $shadow-88;
+        transition-duration: 1s;
+        background-color: $color-charcol;
+        transform: scale(1.1, 1.1) rotateX(360deg);
     }
 }
 
