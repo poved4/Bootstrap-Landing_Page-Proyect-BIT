@@ -20,7 +20,6 @@
   <!-- css's -->
   <link rel="stylesheet" href="css/styles.css" />
   <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> -->
-
   <title>ARESoft</title>
 </head>
 
@@ -70,9 +69,9 @@
   </header>
 
   <section id="about" class="py-5">
+    <h2 class="text-uppercase fw-bold fs-2 text mb-4 text-center">about us</h2>
+    
     <div class="container-fluid g-0">
-
-      <h2 class="text-uppercase fw-bold fs-2 text mb-4 text-center">about us</h2>
 
       <div class="row row-cols-1 row-cols-md-2 g-0">
 
@@ -113,9 +112,9 @@
     </div>
   </section>
 
-  <section class="container-fluid parallax bg-image bg-image-1">
+  <div class="container-fluid parallax bg-image bg-image-1">
     <div class="mask"></div>
-  </section>
+  </div>
 
   <section id="services" class="py-5">
     <div class="container">
@@ -126,8 +125,8 @@
 
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
 
-        <div class="col">
-          <div class="card my-2 mx-auto py-2">
+        <div class="col mb-3">
+          <div class="card my-2 mx-auto py-2 wow animate__bounceInUp">
             <div class="card-body text-center">
               <h5 class="card-title mb-2 text-lowercase fw-normal">cybersecurity</h5>
               <i class="fas fa-shield-alt fa-5x"></i>
@@ -135,8 +134,8 @@
           </div>
         </div>
 
-        <div class="col">
-          <div class="card my-2 mx-auto py-2">
+        <div class="col mb-3">
+          <div class="card my-2 mx-auto py-2 wow animate__bounceInUp">
             <div class="card-body text-center">
               <h5 class="card-title mb-2 text-lowercase fw-normal">Gaming</h5>
               <i class="fas fa-gamepad fa-5x"></i>
@@ -144,8 +143,8 @@
           </div>
         </div>
 
-        <div class="col">
-          <div class="card my-2 mx-auto py-2">
+        <div class="col mb-3">
+          <div class="card my-2 mx-auto py-2 wow animate__bounceInUp">
             <div class="card-body text-center">
               <h5 class="card-title mb-2 text-lowercase fw-normal">Product Strategy</h5>
               <i class="fab fa-connectdevelop fa-5x"></i>
@@ -153,8 +152,8 @@
           </div>
         </div>
 
-        <div class="col">
-          <div class="card my-2 mx-auto py-2">
+        <div class="col mb-3">
+          <div class="card my-2 mx-auto py-2 wow animate__bounceInUp">
             <div class="card-body text-center">
               <h5 class="card-title mb-2 text-lowercase fw-normal">custom development</h5>
               <i class="fas fa-terminal fa-5x"></i>
@@ -162,8 +161,8 @@
           </div>
         </div>
 
-        <div class="col">
-          <div class="card my-2 mx-auto py-2">
+        <div class="col mb-3">
+          <div class="card my-2 mx-auto py-2 wow animate__bounceInUp">
             <div class="card-body text-center">
               <h5 class="card-title mb-2 text-lowercase fw-normal">Outsourcing</h5>
               <i class="fas fa-headset fa-5x"></i>
@@ -171,8 +170,8 @@
           </div>
         </div>
 
-        <div class="col">
-          <div class="card my-2 mx-auto py-2">
+        <div class="col mb-3">
+          <div class="card my-2 mx-auto py-2 wow animate__bounceInUp">
             <div class="card-body text-center">
               <h5 class="card-title mb-2 text-lowercase fw-normal">Cultural Hacking</h5>
               <i class="fab fa-redhat fa-5x"></i>
@@ -184,68 +183,41 @@
     </div>
   </section>
 
-  <section class="container-fluid parallax bg-image bg-image-2"></section>
+  <div class="container-fluid parallax bg-image bg-image-2"></div>
 
-  <section id="events" class="py-5">
-    <h2 class="mb-4 text-uppercase fw-bold fs-2 text text-center">events</h2>
+  <section class="py-5">
+    <h2 class="text-uppercase fw-bold fs-2 text mb-4 text-center">events</h2>
 
-    <div id="carouselExampleTouch" class="carousel slide" data-mdb-touch="false">
-
-      <div class="carousel-indicators">
-        <button type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide-to="2"
-          aria-label="Slide 3"></button>
+    <div id="events" class="d-flex justify-content-center align-items-center">
+      <div class="carousel d-flex justify-content-center align-items-center flex-column">
+        <input type="radio" name="slider" id="item-1" checked>
+        <input type="radio" name="slider" id="item-2">
+        <input type="radio" name="slider" id="item-3">
+        <div class="cards">
+          <label class="card" for="item-1" id="song-1">
+            <img
+              src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80"
+              alt="song">
+          </label>
+          <label class="card" for="item-2" id="song-2">
+            <img
+              src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80"
+              alt="song">
+          </label>
+          <label class="card" for="item-3" id="song-3">
+            <img
+              src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+              alt="song">
+          </label>
+        </div>
       </div>
-
-      <div class="carousel-inner">
-
-        <div class="carousel-item active">
-          <img src="https://mdbootstrap.com/img/new/slides/041.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <img src="https://mdbootstrap.com/img/new/slides/042.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <img src="https://mdbootstrap.com/img/new/slides/043.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-      <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-
-      <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-
     </div>
+
   </section>
 
-  <section class="container-fluid parallax bg-image bg-image-0">
+  <div class="container-fluid parallax bg-image bg-image-0">
     <div class="mask"></div>
-  </section>
+  </div>
 
   <section id="contact" class="py-5">
     <div class="container-fluid">
@@ -320,14 +292,14 @@
     <!-- Grid container -->
     <div class="container p-4 pb-0">
       <!-- Section: Social media -->
-      <section class="mb-4">
+      <div class="mb-4">
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
-      </section>
+      </div>
     </div>
 
     <!-- Copyright -->
@@ -339,6 +311,17 @@
   <!-- Wow Animations -->
   <script src="js/wow.min.js"></script>
   <script>new WOW().init();</script>
+
+  <!-- Carousel  -->
+  <script>
+    document.getElementsByName("slider").forEach(item => {
+      item.addEventListener('change', () => {
+        const carousel = document.getElementById("events");
+        carousel.classList.toggle("blue");
+      });
+    });
+  </script>
+
 </body>
 
 </html>
